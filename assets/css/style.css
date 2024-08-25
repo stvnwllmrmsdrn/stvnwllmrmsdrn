@@ -184,7 +184,7 @@ nav{
     font-size: 40px;
     font-weight: 600;
     color: var(--text-color-second);
-    margin-block: 20px;
+    /* margin-block: 20px; */
 }
 .typedText{
     text-transform: capitalize;
@@ -192,7 +192,7 @@ nav{
 }
 .featured-text-info{
     font-size: 14px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: var(--text-color-second);
     text-align: justify;
 }
@@ -382,7 +382,7 @@ h3{
     background: var(--first-color);
     color: var(--color-white);
     border-radius: 10px;
-    padding: 2px 3px;
+    padding: 5px 10px;
    
 }
 /*--------------CERTIFICATION---------------*/
@@ -689,13 +689,19 @@ footer{
         width: 150px;
         height: 150px;
     }
-    .skills-header{
+    .skills-header p{
+        font-size: 14px;
         flex-direction: column;
         text-align: right;
     }
     .skills-list span {
-        font-size: 12px;
+        font-size: 10px;
+        background: var(--first-color);
+        color: var(--color-white);
+        border-radius: 10px;
+        padding: 2px 4px;
     }
+
     .row{
         display: flex;
         flex-direction: column;
